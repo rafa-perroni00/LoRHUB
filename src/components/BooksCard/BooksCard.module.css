@@ -1,0 +1,31 @@
+.card{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 15vw;
+  height: 50vh;
+  background-color: #5c1014;
+  border-radius: 8px;
+  border: none;
+  min-width: 215px;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.02) perspective(0px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.5)
+}
+
+.card h1{
+  color: #FBECA3;
+  font-family: Bilbo;
+  font-size: 1.5rem;
+}
+
+.card img{
+  width: 15vw;
+  height: 40vh;
+  min-width: 215px;
+  border-radius: 0 0 8px 8px;
+}
